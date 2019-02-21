@@ -3,5 +3,7 @@
 const cow = require('vaca')
 
 module.exports = (context, callback) => {
-    callback(undefined, cow())
+    callback(undefined, `A cow for you!
+
+${cow()}`)
 }
